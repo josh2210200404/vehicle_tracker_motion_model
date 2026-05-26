@@ -26,14 +26,6 @@ The system tracks one selected target vehicle across video frames and predicts i
 
 ---
 
-## Dependencies
-
-Install required libraries:
-
-pip install ultralytics opencv-python
-
----
-
 ## Input
 - Video file (`car3.mp4`)
 - Initial target car selected from first frame
@@ -66,6 +58,31 @@ For every frame, the system displays:
 2. Upload video file
 3. Run notebook/code
 4. Output video with tracked vehicle is generated as `output.mp4`
+
+---
+
+## Build Instructions
+
+1. Open Google Colab or Jupyter Notebook.
+2. Install required dependencies.
+3. Upload the input video file.
+4. Run all notebook cells sequentially.
+5. The tracked output video will be generated automatically.
+
+---
+
+## Dependency List
+
+Required Python libraries:
+
+- ultralytics
+- opencv-python
+- math
+
+Install dependencies using:
+
+```bash
+pip install ultralytics opencv-python
 
 ---
 
