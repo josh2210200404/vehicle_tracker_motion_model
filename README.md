@@ -83,6 +83,7 @@ Install dependencies using:
 
 ```bash
   pip install ultralytics opencv-python
+```
 
 ---
 
