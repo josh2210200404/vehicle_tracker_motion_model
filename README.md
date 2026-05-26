@@ -82,7 +82,7 @@ Required Python libraries:
 Install dependencies using:
 
 ```bash
-pip install ultralytics opencv-python
+  pip install ultralytics opencv-python
 
 ---
 
